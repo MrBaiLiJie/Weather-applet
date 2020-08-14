@@ -8,9 +8,9 @@
 
 ## 运行前准备
 > * [注册微信小程序](https://mp.weixin.qq.com/wxopen/waregister?action=step1)，获取 `appid`，配置域名白名单(在小程序后台将使用到的 `API` 添加到域名白名单)；
-> * ~~注册[百度地图开放平台](https://lbsyun.baidu.com/)开发者，创建应用 **（注意：应用类型选择微信小程序时，请填写真实的小程序 appid）** ，获取 `ak`（其他配置可自行查看）；~~
+> * 注册[百度地图开放平台](https://lbsyun.baidu.com/)开发者，创建应用 **（注意：应用类型选择微信小程序时，请填写真实的小程序 appid）** ，获取 `ak`（其他配置可自行查看）；
 > * 注册[和风天气](http://www.heweather.com/)账号，获取 'key`；
-> * ~~在 `app.js` 中替换 `globalData` 中的 `ak` 为自己的 `ak`；~~
+> * 在 `app.js` 中替换 `globalData` 中的 `ak` 为自己的 `ak`；
 > * 在 `app.js` 中替换 `globalData` 中的 `key` 为你的 `key`；
 > * Run and Enjoy!
 
