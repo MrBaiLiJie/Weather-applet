@@ -368,6 +368,7 @@ page {
 }
 .menus .main {
   opacity: 1;
+  display: none;
 }
 /* 打开设置页面 button */
 .openSettingButton {

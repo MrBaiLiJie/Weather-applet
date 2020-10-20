@@ -1,0 +1,46 @@
+<view class="container">
+<view class="epicTit">国内疫情</view>
+<view class="lastUpdateTime" wx:if='{{lastUpdateTime}}'>统计截至 {{lastUpdateTime}}</view>
+<view class="epicChinaData">
+     <view class="epicChinaDataList confirm">
+       <view class="add">较上日+ <text>{{epideicChinaAdd.confirm}}</text></view>
+       <view class="number">{{epideicChinaTotal.confirm}}</view>
+       <view class="text">累计确诊</view>
+     </view>
+     <view class="epicChinaDataList heal">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.heal}}</text></view>
+      <view class="number">{{epideicChinaTotal.heal}}</view>
+       <view class="text">累计治愈</view>
+     </view>
+     <view class="epicChinaDataList dead">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.dead}}</text></view>
+      <view class="number">{{epideicChinaTotal.dead}}</view>
+       <view class="text">累计死亡</view>
+     </view>
+     <view class="epicChinaDataList nowconfirm">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.nowConfirm}}</text></view>
+      <view class="number">{{epideicChinaTotal.nowConfirm}}</view>
+       <view class="text">现有确诊</view>
+     </view>
+     <view class="epicChinaDataList noinfect">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.noInfect}}</text></view>
+      <view class="number">{{epideicChinaTotal.noInfect}}</view>
+       <view class="text">无症状</view>
+     </view>
+     <view class="epicChinaDataList import">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.importedCase}}</text></view>
+      <view class="number">{{epideicChinaTotal.importedCase}}</view>
+       <view class="text">境外输入</view>
+     </view>
+     <view class="epicChinaDataList nowsuspect">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.suspect}}</text></view>
+      <view class="number">{{epideicChinaTotal.suspect}}</view>
+       <view class="text">现有疑似</view>
+     </view>
+     <view class="epicChinaDataList nowsevere">
+      <view class="add">较上日+ <text>{{epideicChinaAdd.nowSevere}}</text></view>
+      <view class="number">{{epideicChinaTotal.nowSevere}}</view>
+       <view class="text">现有重症</view>
+     </view>
+</view>
+</view>

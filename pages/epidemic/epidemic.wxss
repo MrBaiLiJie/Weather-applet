@@ -1,0 +1,76 @@
+.epicTit{
+   color: #fff;
+   background: #00bec9;
+   text-align: center;
+   font-size: 38rpx;
+   letter-spacing: 2rpx;
+   padding: 19rpx 0 20rpx 0;
+}
+/* 更新时间 */
+.lastUpdateTime{
+  font-size: 28rpx;
+  color:#999999;
+  margin: 5rpx 0 15rpx 10rpx;
+}
+.epicChinaData{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.epicChinaDataList{
+  width: 24%;
+  height: 160rpx;
+  border-radius: 16rpx 0 0 0;
+  text-align: center;
+  margin-left: 1rpx;
+  margin-top: 8rpx;
+  line-height: 53rpx;
+}
+.epicChinaDataList text{
+  color: #f05926;
+}
+/* 累计确诊 */
+.epicChinaData .confirm{
+  background-color: #fdf1f1;
+}
+/* 累计治愈 */
+.epicChinaData .heal{
+  background-color:#f1f8f4
+}
+/* 累计死亡 */
+.epicChinaData .dead{
+  background-color: #f3f6f8;
+}
+/* 现有确诊 */
+.epicChinaData .nowconfirm{
+  background-color: #fdf1f1;
+}
+/* 境外输入 */
+.epicChinaData .import{
+  background-color: #fcf4f0;
+}
+/* 现有疑似 */
+.epicChinaData .nowsuspect{
+  background-color: #fcf4f0;
+}
+/* 现有重症 */
+.epicChinaData .nowsevere{
+  background-color: #fcf4f0;
+}
+/* 无症状 */
+.epicChinaData .noinfect{
+  background-color: #faf2f6;
+}
+.epicChinaDataList .add{
+  color: #7c7c7c;
+  font-size: 28rpx;
+}
+.number{
+  color: #cc1e1e;
+  font-size: 36rpx;
+}
+.text{
+  color: #222;
+  font-size: 32rpx;
+}

@@ -25,7 +25,7 @@
     </view> -->
     <view class='item'>
       <view class='title'>联系开发者</view>
-      <view class='i' catchtap='copy' data-title='GitHub' data-content='{{github}}'>
+      <view class='i' catchtap='copy' data-title='CSDN' data-content='{{github}}'>
         <view class='icon'>
           <image src='/img/github.png'></image>
         </view>

@@ -4,13 +4,38 @@
     "pages/about/about",
     "pages/citychoose/citychoose",
     "pages/setting/setting",
-    "pages/systeminfo/systeminfo"
+    "pages/systeminfo/systeminfo",
+    "pages/epidemic/epidemic"
   ],
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#40a7e7",
     "navigationBarTitleText": "小白天气",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#8a8a8a",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",       
+        "iconPath":"img/index.png",
+        "selectedIconPath":"img/indexon.png"
+      },
+      {
+        "pagePath": "pages/epidemic/epidemic",
+        "text": "疫情",       
+        "iconPath":"img/epidemic.png",
+        "selectedIconPath":"img/epidemicon.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath":"img/about.png",
+        "selectedIconPath":"img/abouton.png"
+      }
+    ]
   },
   "permission": {
     "scope.userLocation": {
