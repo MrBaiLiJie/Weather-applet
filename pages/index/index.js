@@ -61,6 +61,10 @@ Page({
     setting: {},
     bcgImgList: [
       {
+        src: '/img/beautiful-cold-dawn-547115.jpg',
+        topColor: '#ffa5bc'
+      },
+      {
         src: '/img/beach-bird-birds-235787.jpg',
         topColor: '#393836'
       },
@@ -80,10 +84,7 @@ Page({
         src: '/img/17cd567662bafc8d63d73d41444585d2.jpg',
         topColor: '#009ffe'
       },
-      {
-        src: '/img/beautiful-cold-dawn-547115.jpg',
-        topColor: '#ffa5bc'
-      }
+     
     ],
     bcgImgIndex: 0,
     bcgImg: '',

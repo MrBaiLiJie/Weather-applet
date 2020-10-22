@@ -23,12 +23,7 @@
         "iconPath":"img/index.png",
         "selectedIconPath":"img/indexon.png"
       },
-      {
-        "pagePath": "pages/epidemic/epidemic",
-        "text": "疫情",       
-        "iconPath":"img/epidemic.png",
-        "selectedIconPath":"img/epidemicon.png"
-      },
+      
       {
         "pagePath": "pages/about/about",
         "text": "关于",
